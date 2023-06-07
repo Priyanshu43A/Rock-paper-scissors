@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Lilita+One&family=Press+Start+2P&family=Shojumaru&family=UnifrakturCook&display=swap" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="rockh">ROCK</h1>
+    <h1 id="paperh">PAPER</h1>
+    <h1 id="scissorh">SCISSOR</h1>
+
+  </header>
+  <br>
+  <hr><br>
+  <div id="bot">
+    <h1 id="scoreB">Bot: 0</h1> <br>
+    <img id="botTurn" src="pngaa.png" alt="">
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div id="scores">
+    <p id="pg">Start the Game!</p>
+    <button id="play" class="btn" onclick="startGame()">Play</button>
+    <button id="pagain" class="btn" onclick="next()">Next Round</button>
+
+  </div>
+  <br>
+  <hr><br>
+  <div id="pchoice">
+
+    <img id="players" src="pngaa.png" alt="">
+
+
+  </div> <br>
+  <div id="player">
+    <img class="choice" src="rockk.png" alt="rockk.png">
+    <img class="choice" src="paperr.png" alt="paperr.png">
+    <img class="choice" src="scissor.png" alt="scissor.png"><br>
+
+  </div>
+  <div id="youh">
+    <h1 class="greenn" id="scoreP">You: 0</h1>
+
+  </div>
+
+  <br><br>
+  <hr>
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>
